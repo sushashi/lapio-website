@@ -1,7 +1,27 @@
 p {
-    background-color: red;
+    color: orange;
 }
 
 h1 {
     color: blue;
+}
+
+h2 {
+    color: brown;
+}
+
+h3 {
+    color:violet;
+}
+
+.yellow {
+    color: pink;
+}
+
+li {
+    color: orange;
+}
+
+.liTitle {
+    color: red;
 }
