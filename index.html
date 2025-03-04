@@ -34,8 +34,43 @@
   <p>Such as learning <em>HTML</em></p>
   
   <!-- Pic is a tree with red flowers -->
-  <img src="./assets/trees.jpg" alt="Trees with flowers" height=300/>
+  <div class="image-container">
+    <img class="image-container" src="./assets/trees.jpg" alt="Trees with flowers" height=300/>
+  </div>
   <p>Nice picture</p>
+  
+  <h2>The most commonly used properties of CSS</h2>
+  <p>
+	There exists an immense amount of different kinds of CSS properties designed for specific situations, all of which would be impossible to cover completely. However, here is an overview of the most important properties, including what they are used for.
+  </p>
+  <p>
+	<span class="code-box">color: #RRGGBB (Red, Green, Blue)</span> allows defining the color of an element using a hex value, or, in the case of the most common colors, in plain English. The definition of a hex value is beyond the scope of this course, but you can read more about it <a href="https://en.wikipedia.org/wiki/Web_colors" >here</a> if you wish. There are also several sites and tools for finding the hex value of a color, such as <a href="https://htmlcolorcodes.com/color-picker/">this one</a>.
+  </p>
+  <p>
+	<span class="code-box">text-aling: left [ right [ center [ justify</span> defines which direction the text should be indented to.
+  </p>
+  <p>
+	<span class="code-box">text-decoration: none | underline | overline | line-through | blink | inherit</span> enables the most common modifications of text, such as underlining.
+  </p>
+  <p>
+	<span class="code-box">text-transform: none | capitalize | uppercase | lowercase</span> enables changing the case of the whole element, regardless if some letters are capitalized or not.
+  </p><span class="code-box">line-height</span> can be used to change the distance between lines. However, the property will only have an effect on text. The values should be given as pixels or percentages.
+  <p>
+	<span class="code-box">font-style</span> allows styling the font further, by for example making it bold or cursive. Nevertheless, bolded text should always be created using <span class="code-box"><code>&lt;strong&gt;&lt;/strong&gt;</code></span> and cursive ones with <span class="code-box"><code>&lt;em&gt;&lt;/em&gt;</code></span>. This is because the screen readers, that for example blind people use, only use the HTML of the page, and thus wouldn’t be able to make the distinction between normal text and text altered with CSS.
+  </p>
+  <p>
+	<span class="code-box">background-color</span> adds color to the background of an element. The possible values are the same as for the color property. 
+  </p>
+  <p>
+	<span class="code-box">border-style</span> defines the type of border of an element. Possible values are <span class="code-box">solid</span> or <span class="code-box">dashed</span>.
+  </p>
+  <p>
+	<span class="code-box">border-style</span> defines the type of border of an element. Possible values are solid or dashed.
+  </p>
+  <p>
+	<span class="code-box">border-color</span> defines the color of the elements’ border. It takes the same values as the properties background-color and color.
+  </p>
+  
   <strong><em>To be continued...</em></strong>
 </body>
 </html>

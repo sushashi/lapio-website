@@ -1,13 +1,18 @@
 body {
-	color: orange;
+	color: #555;
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	line-height: 1.4;
+	padding: 0em 5em;
 }
 
 h1 {
-	color: blue;
+	color: #333;
 }
 
 h2 {
-	color: braun;
+	color: violet;
 }
 
 .violet-part {
@@ -17,4 +22,17 @@ h2 {
 
 .red-part {
 	color: red;
+}
+
+.image-container {
+	border-radius: 20px;
+	text-align: center;
+}
+
+.code-box {
+	background-color: #eee;
+	padding: 2px 4px;
+    vertical-align: text-bottom;
+	font-family: "lucida console";
+	font-size: 85%;
 }
