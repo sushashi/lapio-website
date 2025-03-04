@@ -1,3 +1,20 @@
-p {
-	background-color: red;
+body {
+	color: orange;
+}
+
+h1 {
+	color: blue;
+}
+
+h2 {
+	color: braun;
+}
+
+.violet-part {
+	color: darkviolet;
+}
+
+
+.red-part {
+	color: red;
 }
